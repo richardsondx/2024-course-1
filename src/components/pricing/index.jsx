@@ -15,7 +15,7 @@ export default function Pricing() {
                     content="There is not better investment than invest in yourself and your better life. Specialy when it's a course showing you entire framework how to get your investment back in no time."
                 />
                 <div className="row mt-5">
-                    <div className="col-lg-6">
+                    <div className="col-md-6">
                         <PricingBlk
                             packageName="Bundle"
                             packageInfo="Get the course plus bonuses"
@@ -41,7 +41,7 @@ export default function Pricing() {
                             </ul> 
                         </PricingBlk>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-md-6">
                         <PricingBlk
                             packageName="Course"
                             packageInfo="Get the course"

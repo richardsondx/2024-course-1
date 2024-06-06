@@ -46,7 +46,75 @@ header {
     color: var(--white);
 }
 
-.header-left a.theme-btn.grayBtn {
+.header-right a.theme-btn.grayBtn {
     margin-left: auto;
     margin-right: 0;
+}
+.header-right button.forMenu {
+    margin-left: auto;
+    padding: 0;
+    line-height: 0;
+    transition: .2s;
+}
+
+.header-right button.forMenu svg {
+    width: 40px;
+    height: 40px;
+}
+
+.header-right button.forMenu:hover {
+    color: #fff;
+}
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    background: var(--dark);
+    padding: 20px;
+    left: -100%;
+    transition: .3s;
+}
+
+aside > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+aside a.logo {
+    max-width: 220px;
+}
+
+aside ul li a {
+    display: block;
+    margin-bottom: 10px;
+    transition: .2s;
+}
+
+aside ul li a:hover {
+    opacity: .8;
+}
+
+aside ul li a.active {
+    color: var(--white);
+}
+
+aside > div button {
+    font-family: 'circular';
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--redColor);
+    border-radius: 50%;
+    color: var(--white);
+}
+
+aside.shownow {
+    left: 0;
 }

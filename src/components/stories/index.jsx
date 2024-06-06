@@ -18,32 +18,32 @@ export default function Stories() {
                     content="Here are a few life-changing results from my students."
                 />
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img} alt="" />
                         </DefaultItem>
                     </div>  
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img2} alt="" />
                         </DefaultItem>
                     </div>  
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img3} alt="" />
                         </DefaultItem>
                     </div>  
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img4} alt="" />
                         </DefaultItem>
                     </div>  
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img5} alt="" />
                         </DefaultItem>
                     </div>  
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <img src={Img6} alt="" />
                         </DefaultItem>

@@ -238,6 +238,89 @@ li {
 
 
 
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-left nav, .header-right .theme-btn{
+  display: none;
+}
+ 
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+  .header-left nav, .header-right .theme-btn{
+    display: none;
+  }
+  h1 {
+    font-size: 2.5rem; 
+}
+h2 {
+  font-size: 1.8rem; 
+}
+.hero-wrap p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero-wrap {
+  padding-top: 4rem;
+}
+div#whatisinside {
+  padding-top: 0;
+}
+.default_item{
+  padding: 2rem;
+}
+div#whatisinside {
+  padding-top: 0;
+}
+
+.pricing-intros {
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.pricing-intros > img {
+  margin: 0;
+}
+
+.default_item.pricings {
+  margin-bottom: 1rem;
+}
+
+.default_item.only_for_content {
+  padding: 2rem !important;
+}
+
+.accordion-item button.accordion-button svg, .accordion-item button.accordion-button span {
+  display: none;
+}
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
 
 
 

@@ -19,56 +19,56 @@ export default function MoreFeatures() {
                     content="Everyone who purchased the bundle version of this course will also get access to bonus materials listed below, which are worth over $500 in total value."
                 />  
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Product Visual Templates</h3>
                             <p>Make your products look high quality. Get my pre-made visual templates that you can easily edit and use.</p>
                             <img src={Img} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Digital Product Checklist</h3>
                             <p>Receive a step-by-step checklist to make sure you're not missing any steps while building your business.</p>
                             <img src={Img2} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Digital Product Ideas</h3>
                             <p>Choose which digital product businesses to create. Get 80+ digital product ideas that you can try.</p>
                             <img src={Img3} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Product Creator Toolbox</h3>
                             <p>Receive a hand-picked list of the best tools for digital product creators and accelerate your growth.</p>
                             <img src={Img4} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Notion Content System</h3>
                             <p>Create and plan quality content from one place. Get my content system for a rapid audience growth.</p>
                             <img src={Img5} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Notion Second Brain</h3>
                             <p>From tasks to goals, have a system for your life. Get my second brain system and organize your entire life.</p>
                             <img src={Img6} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Notion Creator Course</h3>
                             <p>Get a course on how to create and sell Notion templates. See behind the scenes of my current business.</p>
                             <img src={Img7} alt="" />
                         </DefaultItem>
                     </div> 
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-md-6">
                         <DefaultItem>
                             <h3>Upcoming modules</h3>
                             <p>Get access to the new upcoming modules for this course. Learn the secrets of automation and more.</p>
