@@ -3,8 +3,10 @@ import DefaultItem from "../steps/defaultItem";
 export default function PricingBlk({packageName,packageInfo,price,disc_price,promo_code,children}) {
     return (
         <DefaultItem classes={"pricings"}>
+            <div>
             <h5>{packageName}</h5>
             <p>{packageInfo}</p> 
+            </div>
             <div className="onlyPrices">
                 <h2>${price} {disc_price ? <span>$399</span> : ""}</h2>
                 <p>One-time payment</p>

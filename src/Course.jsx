@@ -11,21 +11,36 @@ import WhyDetails from './components/whydetails'
 import Pricing from './components/pricing'
 import Testimonials from './components/testimonials'
 import Faq from './components/faq'
-import './global.css'
 import Stories from './components/stories'
+import Btn from './components/btn'
+import './global.css'
 
-function App() { 
-
+function Course() { 
+  const menuItems = [
+    {href:"#",value:"Overview"},
+    {href:"#whatisinside",value:"What's Inside"},
+    {href:"#pricing",value:"Pricing"},
+    {href:"#testimonial",value:"Testimonials"},
+    {href:"#faq",value:"FAQ's"},
+  ]
   return (
     <>
-      <Header />
+      <Header menus={menuItems} btnInfo={{value:"Get Instant Access",href:"#pricing"}}>
+        <p>Limited-time offer: Save $500 on bundle with code <b>"BUNDLE2024"</b> at checkout.</p>
+      </Header>
       <main>
 
         <div className="container">
           <div className="row">
 
-              {/* Hero */}
-              <Hero/> 
+              {/* Hero */} 
+              <Hero 
+                title="Build Your Digital Product Business From Scratch"
+                content="Create Once, Sell Forever is a video course where I show you my framework on how to build a $35k/month digital product business from scratch."
+              >
+                <Btn type={"link"} href={"#pricing"} classes={"largeBtn"} text={"Get Instant Access"} />
+                <span>Limited-time offer, the prices will increase soon.</span>
+              </Hero>
 
               {/* Video */}
               <VideoBlk />
@@ -91,4 +106,4 @@ function App() {
   )
 }
 
-export default App
+export default Course

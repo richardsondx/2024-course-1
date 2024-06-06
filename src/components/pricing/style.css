@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: .8rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .default_item.pricings a.theme-btn {
@@ -70,4 +70,8 @@
 
 .pricing-intros p {
     margin: 0;
+}
+.default_item.pricings > p{
+    margin-top: 1.2rem;
+    margin-bottom: .5;
 }

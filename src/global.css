@@ -311,6 +311,94 @@ div#whatisinside {
 .accordion-item button.accordion-button svg, .accordion-item button.accordion-button span {
   display: none;
 }
+form.newsletterform > div {
+  flex-wrap: wrap;
+}
+
+form.newsletterform > div button.theme-btn {
+  width: 100%;
+}
+.info-steps-wrap {
+  padding-top: 2.5rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.info-steps-wrap .default_item {
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+}
+
+.info-steps-wrap .default_item a.theme-btn.grayBtn {
+  width: 100%;
+}
+
+.mainTestimonial.testimonailOfHome {
+  padding-top: 0rem;
+}
+
+.testimonailOfHome .section-title {
+  margin-bottom: 1rem;
+}
+
+.info-steps-wrap.resources .section-title {
+  padding-bottom: 3rem;
+}
+
+footer {
+  padding: 2.5rem 0 !important;
+}
+
+.footer-form {
+  padding-bottom: 2.5rem !important;
+}
+
+.footer-bottom {
+  flex-direction: column-reverse;
+  padding-top: 2.5rem ! IMPORTANT;
+  flex-wrap: wrap;
+  justify-content: start ! IMPORTANT;
+  align-items: flex-start !important;
+}
+
+
+
+.why-details-wrap {
+  padding-top: 0;
+}
+
+.feature_item {
+  margin-bottom: .75rem;
+}
+
+.accordion {
+  margin-top: 3rem;
+}
+
+.steps-wrap {
+  padding-bottom: 0;
+}
+
+.testimonial-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.stores-wrap {
+  padding: 0;
+}
+.steps-wrap .section-title { 
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.mainTestimonial {
+  padding: 0;
+}
+
+.stores-wrap .section-title {
+  margin-bottom: 3rem;
+}
+
 
 
 

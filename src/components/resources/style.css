@@ -1,0 +1,14 @@
+.info-steps-wrap {
+    padding: 4rem 0;
+}
+
+.info-steps-wrap .default_item {
+    padding: 3rem;
+}
+
+.info-steps-wrap .default_item .theme-btn {
+    margin: 0;
+    margin-top: 3rem;
+    background: #272727;
+    padding: .5rem .875rem;
+}
