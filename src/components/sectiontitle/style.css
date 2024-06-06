@@ -1,0 +1,12 @@
+.section-title {
+    text-align: center; 
+}
+
+.section-title h2 {
+    margin-bottom: 1rem;
+}
+
+.section-title  p {
+    margin: 0;
+    font-size: 1.125rem;
+}

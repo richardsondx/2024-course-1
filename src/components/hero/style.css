@@ -1,0 +1,19 @@
+.hero-wrap {
+    padding-top: 7rem;
+}
+
+.hero-wrap h1 {
+    margin-bottom: 1.5rem;
+}
+
+.hero-wrap p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.hero-wrap span {
+    margin-top: 1rem;
+    font-size: .9rem;
+    display: block;
+}

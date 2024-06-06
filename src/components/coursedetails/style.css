@@ -1,0 +1,109 @@
+.accordion {
+    margin-top: 5rem;
+    background: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+    background: var(--dark-soft);
+    color: var(--white);
+    border: none;
+    border-radius: 1rem !IMPORTANT;
+    padding: 0 1.5rem;
+}
+
+.accordion-item button.accordion-button {
+    background: transparent !IMPORTANT;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--white) !IMPORTANT;
+    font-size: 1.125rem;
+    font-weight: 500;
+    position: relative;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #272727;
+    outline: none;
+    box-shadow: none;
+}
+
+button.accordion-button span {
+    grid-column-gap: .375rem;
+    background-color: #272727;
+    color: #ffffff75;
+    white-space: nowrap;
+    border-radius: 10rem;
+    align-items: center;
+    margin-left: 1rem;
+    padding: .125rem .625rem;
+    font-size: .875rem;
+    font-weight: 500;
+    display: flex;
+}
+
+button.accordion-button svg {
+    color: #ffffff75;
+}
+
+.accordion-button::after {
+    display: none !important;
+}
+
+.status-indicators-accordion {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border: 2px solid var(--bodyColor);
+    color: var(--bodyColor);
+    border-radius: 50%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+}
+
+.status-indicators-accordion:after,.status-indicators-accordion:before {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--bodyColor);
+    transition: .2s; 
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.status-indicators-accordion:before {
+    width: 2px;
+    height: 70%;
+}
+.accordion-button:not(.collapsed) .status-indicators-accordion:before {
+    opacity: 0;
+    transform: translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -moz-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    -o-transform: translateY(-50%) rotate(-90deg);
+}
+.accordion-body {
+    padding: 1.5rem 0;
+    color: var(--bodyColor);
+}
+
+.default_item.short-cta {
+    text-align: center;
+}
+
+.default_item.short-cta p {margin-bottom: 1.5rem;}
+.default_item.short-cta a.theme-btn {
+    margin: auto;
+}

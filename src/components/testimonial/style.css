@@ -1,0 +1,50 @@
+.mainTestimonial {
+    margin: 5rem 0;
+    padding: 3rem 0;
+}
+.testimonial-wrap {
+    padding: 0 35px;
+    margin-bottom: 5rem;
+    padding-top: 3rem;
+}
+.testimonial-wrap .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.testimonial-item {
+    border: 1px dashed var(--dark-soft);
+    text-align: center;
+    border-radius: 8px;
+    min-height: 4.5rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.ti_top svg {
+    display: block;
+    margin: 15px auto;
+}
+
+.ti_top > img {
+    border-radius: 1000px;
+    width: 3rem;
+    margin-bottom: 1rem;
+}
+
+.ti_top  h5 {
+    letter-spacing: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.ti_top  p {
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.testimonial-item > p {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+}

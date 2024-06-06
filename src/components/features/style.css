@@ -1,0 +1,10 @@
+.feature_item {
+    background-color: var(--dark-soft);
+    border: 1px #e7e7e7;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.features-wrap {
+    margin-bottom: 2rem;
+}
