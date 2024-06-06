@@ -1,12 +1,26 @@
 import Btn from '../btn'
 import LOGO from '/logo.webp'
 import "./style.css"
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 export default function Header() {
     const [isShowing,setShowing] = useState(false)
+    const menuList = useRef()
+
+    function CloseMenu() {
+        const all_a = menuList.current.querySelectorAll('li a') 
+        all_a.forEach(menu => {
+            menu.addEventListener('click', () => { 
+                setShowing(false)
+            })
+        }) 
+    }
+
     const ShowHideMenu = () => {
         setShowing(!isShowing)
+        CloseMenu()
     }
+
+    
     return (
         <> 
             <header>
@@ -48,7 +62,7 @@ export default function Header() {
                     <button type='button' onClick={ShowHideMenu}>X</button>
                 </div>
                 <nav>
-                    <ul>
+                    <ul ref={menuList}>
                         <li><a href="#" className='active'>Overview</a></li>
                         <li><a href="#whatisinside">What's Inside</a></li>
                         <li><a href="#pricing">Pricing</a></li>
