@@ -27,7 +27,7 @@ export default function Header({menus,btnInfo,children}) {
             <header>
                 {children &&
                     <div className="top-header text-center">
-                        {children} 
+                        {children}  <Link to={'courses'}>Course</Link>
                     </div>
                 }
                 <div className="container">
