@@ -1,7 +1,7 @@
 import Btn from "../btn";
 import SectionTitle from "../sectiontitle"; 
 import DefaultItem from "../steps/defaultItem"; 
-import Avatar from "/avatar3.webp";
+import Avatar from "/avatar3.svg";
 import tickIcon from "/tick.svg";
 import closeIcon from "/close.svg";
 import PricingBlk from "./pricingBlk";
@@ -71,8 +71,8 @@ export default function Pricing() {
                 <div className="pricing-intros">
                     <img src={Avatar} alt="" />
                     <div>
-                        <h4>Created by Modest Mitkus</h4>
-                        <p>I make over $35k/month and generate over $300,000+ in revenue selling digital products. I have also grown 290k+ followers organically across different social media channels and now, I'm willing to share all this knowledge with you.</p>
+                        <h4>Created by Richardson Dackam</h4>
+                        <p>I'm a senior software developer and team lead that has generated over $300,000+ in revenue leading remote development team for web development projects through my web development agency. I have also worked for some of the top companies in tech and across various timezones and now, I'm willing to share everything I've learned with you.</p>
                     </div>
                 </div>
             </div>

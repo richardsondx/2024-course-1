@@ -5,7 +5,7 @@ export default function Testimonials() {
         <div className="col-lg-12" id="testimonial">
             <div className="mainTestimonial">
                 <SectionTitle
-                    title="Why I Created This"
+                    title="What Others Have to Say"
                     content="Don't just take my word for it, listen to thousands of others."
                 />
                 <div className="all_testimonials">

@@ -35,7 +35,7 @@ function Course() {
 
               {/* Hero */} 
               <Hero 
-                title="Build and Manage a Remote Development Teams (for Non-Engineers)"
+                title="Build and Manage a Remote Development Team"
                 content="How to Lead Remote Development Teams and Build Quality Apps Without a Technical Background"
               >
                 <Btn type={"link"} href={"#pricing"} classes={"largeBtn"} text={"Get Instant Access"} />
@@ -47,8 +47,8 @@ function Course() {
 
               {/* Testimonial */}
               <Testimonial 
-                section_title="How I Went from a Team of One to Leading Teams that Built Software as a Service"
-                section_content="After watching this 2-hour video course, you will understand my entire framework for building and managing remote development teams. Learn how I went from working alone to leading teams that developed hundreds of apps for clients and my own projects."
+                section_title="How I Went from a Team of One to Leading Remote Teams that deliver results."
+                section_content="After watching this 2-hour video course, you will understand my entire framework for building and managing remote development teams. Learn how I went from working alone to leading remote teams that can deliver high quality work consistantly and on schedule."
                 img={Avatar}
                 name={"Parker Worth"}
                 title={"Content Creator"} 
@@ -93,7 +93,7 @@ function Course() {
               <Testimonials />
 
               {/* Stories */}
-              <Stories/>
+              {/* <Stories/> */}
 
               {/* Faq */}
               <Faq/>

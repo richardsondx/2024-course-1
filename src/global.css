@@ -8,7 +8,7 @@
   --bodyColor: #a5a5a5;
   --headingColor: var(--white);
   --redColor: #ea4e43;
-  --themeColor: #d8fc6c;
+  --themeColor: #ffd815; /* #d8fc6c; */
 }
 body {
   font-family: 'Inter', sans-serif;

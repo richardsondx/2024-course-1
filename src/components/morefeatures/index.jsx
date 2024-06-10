@@ -21,7 +21,7 @@ export default function MoreFeatures() {
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                         <DefaultItem>
-                            <h3>Remote Team Management Templates</h3>
+                            <h3>Management Templates</h3>
                             <p>Make your management processes seamless. Get my pre-made templates for managing remote teams that you can easily edit and use.</p>
                             <img src={Img} alt="" />
                         </DefaultItem>
@@ -56,7 +56,7 @@ export default function MoreFeatures() {
                     </div> 
                     <div className="col-lg-4 col-md-6">
                         <DefaultItem>
-                            <h3>Team Organization System</h3>
+                            <h3>Organization System</h3>
                             <p>From tasks to team goals, have a system that keeps everything on track. Get my organizational system and manage your remote team efficiently.</p>
                             <img src={Img6} alt="" />
                         </DefaultItem>

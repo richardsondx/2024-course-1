@@ -1,5 +1,5 @@
 import Btn from '../btn'
-import LOGO from '/logo.webp'
+import LOGO from '/logo.svg'
 import "./style.css"
 import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'

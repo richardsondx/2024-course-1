@@ -10,7 +10,7 @@ export default function AccordionItem({title,icon,lessons,ukey,children}) {
             : ""}
             {title}
             {lessons ? 
-                <span>4 lessons</span>
+                <span>{lessons}</span>
             : ""}
             <div className="status-indicators-accordion"></div>
         </button> 
