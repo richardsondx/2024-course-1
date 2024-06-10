@@ -35,8 +35,8 @@ function Course() {
 
               {/* Hero */} 
               <Hero 
-                title="Build Your Digital Product Business From Scratch"
-                content="Create Once, Sell Forever is a video course where I show you my framework on how to build a $35k/month digital product business from scratch."
+                title="Build and Manage a Remote Development Teams (for Non-Engineers)"
+                content="How to Lead Remote Development Teams and Build Quality Apps Without a Technical Background"
               >
                 <Btn type={"link"} href={"#pricing"} classes={"largeBtn"} text={"Get Instant Access"} />
                 <span>Limited-time offer, the prices will increase soon.</span>
@@ -47,8 +47,8 @@ function Course() {
 
               {/* Testimonial */}
               <Testimonial 
-                section_title="Revealing My Framework: How I Went from $0 to $35K/Month with Digital Products"
-                section_content="After watching this 5-hour video course, you will understand my entire $300,000+ digital product business framework, enabling you to take advantage of it and build your own."
+                section_title="How I Went from a Team of One to Leading Teams that Built Software as a Service"
+                section_content="After watching this 2-hour video course, you will understand my entire framework for building and managing remote development teams. Learn how I went from working alone to leading teams that developed hundreds of apps for clients and my own projects."
                 img={Avatar}
                 name={"Parker Worth"}
                 title={"Content Creator"} 
@@ -62,8 +62,8 @@ function Course() {
 
               {/* Testimonial */}
               <Testimonial 
-                section_title="Build Assets and Detach Value From Time. Make Money Even When You're Sleeping."
-                section_content="Follow my step-by-step process and build your own profitable digital product business that makes money even while you sleep. Let this course change the direction of your life."
+                section_title="Build a High-Performing Remote Team and Scale Your Business Effortlessly. Lead Projects from Anywhere, Anytime."
+                section_content="Follow my step-by-step process to build and manage a remote development team that delivers high-quality apps."
                 img={Avatar}
                 name={"Jon Brosio"}
                 title={"Content Creator"} 

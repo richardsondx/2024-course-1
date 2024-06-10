@@ -13,20 +13,48 @@ export default function CourseDetails() {
                 />  
                 <div className="accordion" id="accordionPanelsStayOpenExample">
 
-                    {[1,2,3,4,5,6,7,8,9].map(item => ( 
-                        <AccordionItem key={item} 
-                            title="Module 1 - Introduction"
-                            lessons="4 lessons"
-                            ukey={item} icon>
-                            <p>Inside this module, you will be introduced to the course. I will share what you can expect from it, reveal my framework, tell my story, and show you some personal statistics.</p>
-                            <ul> 
-                                <li>1. Intro to the module.</li>
-                                <li>2. Course.</li>
-                                <li>3. Framework.</li>
-                                <li>4. My story.</li>
-                            </ul>
-                        </AccordionItem> 
-                    ))} 
+                    <AccordionItem key={1} 
+                        title="Introduction"
+                        lessons="4 lessons"
+                        ukey={item} icon>
+                        <p>Inside this module, you will be introduced to the course. I will share what you can expect from it, reveal my framework, tell my story, and show you some personal statistics.</p>
+                        <ul> 
+                            <li>1. Welcome to the course.</li>
+                            <li>2. What to Expect from the Course.</li>
+                            <li>3. The Remote Team Success Framework.</li>
+                            <li>4. My Story and Journey.</li>
+                        </ul>
+                    </AccordionItem>
+                    <AccordionItem key={2} 
+                        title="Module 1 - Building and Managing Remote Teams"
+                        lessons="7 lessons"
+                        ukey={item} icon>
+                        <p>Inside this module, you will be introduced to the course. I will share what you can expect from it, reveal my framework, tell my story, and show you some personal statistics.</p>
+                        <ul> 
+                            <li>1. Intro to the module.</li>
+                            <li>2. Remote Done Right</li>
+                            <li>3. Labor Arbitrage.</li>
+                            <li>4. Start with a goal..</li>
+                            <li>5. Clarity is Key.</li>
+                            <li>6. Creating a Remote-First Culture.</li>
+                            <li>7. Benefits and Challenges of Remote Teams.</li>
+                        </ul>
+                    </AccordionItem>
+                    <AccordionItem key={3} 
+                        title="Module 2 - Hiring and Onboarding Remote Developers"
+                        lessons="7 lessons"
+                        ukey={item} icon>
+                        <p>Inside this module, you will be introduced to the course. I will share what you can expect from it, reveal my framework, tell my story, and show you some personal statistics.</p>
+                        <ul> 
+                            <li>1. Intro to the module.</li>
+                            <li>2. Remote Done Right</li>
+                            <li>3. Labor Arbitrage.</li>
+                            <li>4. Start with a goal..</li>
+                            <li>5. Clarity is Key.</li>
+                            <li>6. Creating a Remote-First Culture.</li>
+                            <li>7. Benefits and Challenges of Remote Teams.</li>
+                        </ul>
+                    </AccordionItem> 
                     
                 </div>
                 <ShortCta

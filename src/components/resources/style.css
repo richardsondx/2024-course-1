@@ -4,6 +4,7 @@
 
 .info-steps-wrap .default_item {
     padding: 3rem;
+    height: 100%;
 }
 
 .info-steps-wrap .default_item .theme-btn {

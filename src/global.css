@@ -323,8 +323,10 @@ form.newsletterform > div button.theme-btn {
   padding-bottom: 3rem !important;
 }
 
-.info-steps-wrap .default_item {
+.info-steps-wrap > div > div{
   margin-bottom: 1.5rem;
+}
+.info-steps-wrap > div > div > div{
   padding: 2rem;
 }
 

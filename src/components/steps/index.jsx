@@ -12,29 +12,29 @@ export default function Steps() {
                 <div className="row">
                     <div className="col-md-6">
                         <DefaultItem>
-                            <h3>Build your brand</h3>
-                            <p>Learn how to pick a profitable niche. Understand how to separate yourself from others and build a strong and memorable brand that people trust and purchase from.</p>
+                            <h3>Build Your Remote Team</h3>
+                            <p>Learn how to assemble and manage a high-performing remote development team. Understand how to select the right talent, foster collaboration, and build a cohesive team that delivers quality apps efficiently.</p>
                             <img src={Img} alt="" />
                         </DefaultItem>
                     </div>
                     <div className="col-md-6">
                         <DefaultItem>
-                            <h3>Build your audience</h3>
-                            <p>Learn how to build your audience without relying on luck. Understand the entire process that helped me build 290k+ followers organically across different social media channels.</p>
+                            <h3>Manage Projects Effectively</h3>
+                            <p>Learn how to manage development projects from start to finish without a technical background. Understand the methodologies and tools that will help you keep your projects on track and ensure timely delivery.</p>
                             <img src={Img2} alt="" />
                         </DefaultItem>
                     </div>
                     <div className="col-md-6">
                         <DefaultItem>
-                            <h3>Create your product</h3>
-                            <p>Learn how to create products that sell themselves. Understand how to translate your knowledge into products and how to validate them before even creating.</p>
+                            <h3>Ensure Quality and Productivity</h3>
+                            <p>Learn how to maintain high standards of quality and productivity within your remote team. Understand the practices and tools that will help you track performance, ensure accountability, and deliver top-notch apps.</p>
                             <img src={Img3} alt="" />
                         </DefaultItem>
                     </div>
                     <div className="col-md-6">
                         <DefaultItem>
-                            <h3>Stop selling your time</h3>
-                            <p>Learn how to sell products instead of selling your time. Understand how to leverage your multiple pre-built digital assets so you can make money even while you sleep.</p>
+                            <h3>Scale Your Operations</h3>
+                            <p>Learn how to scale your remote team and manage larger, more complex projects. Understand the strategies and processes that will allow you to grow your team and handle increasing workloads without sacrificing quality.</p>
                             <img src={Img4} alt="" />
                         </DefaultItem>
                     </div>

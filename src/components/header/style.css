@@ -114,8 +114,12 @@ aside > div button {
     background: var(--redColor);
     border-radius: 50%;
     color: var(--white);
-}
+} 
 
+aside > div button svg {
+    width: 25px;
+    height: 25px;
+}
 aside.shownow {
     left: 0;
 }

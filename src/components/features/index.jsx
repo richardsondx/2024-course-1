@@ -8,50 +8,50 @@ export default function Features() {
                 <div className="row">
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Niche" 
-                            content="How to find and choose a profitable niche." 
+                            title="Foundation" 
+                            content="How to establish core principles." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Brand" 
-                            content="How to build a strong and memorable brand." 
+                            title="Communication" 
+                            content="How to implement effective communication tools." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Audience" 
-                            content="How and where to build your audience online." 
+                            title="Management" 
+                            content="How to outline a plan with clear criteria." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Newsletter " 
-                            content="How to start your newsletter and gain your audience's trust." 
+                            title="Collaboration " 
+                            content="How to build trust and teamwork." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Free Product" 
-                            content="How and why to create your free product before a paid one." 
+                            title="Productivity" 
+                            content="How to set realistic workload expectations." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Paid Product" 
-                            content="How to create a product that people actually want to buy." 
+                            title="Quality" 
+                            content="How to automate quality expectation processes." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Landing Page" 
-                            content="How to create a converting landing page with no-code." 
+                            title="Scaling" 
+                            content="	How to develop scaling strategies." 
                         />
                     </div>
                     <div className="col-lg-3 col-sm-6">
                         <FeatureItem 
-                            title="Traffic and Sales" 
-                            content="How to get traffic to your product page and make sales." 
+                            title="Leadership" 
+                            content="How to delegate decisions effectively." 
                         />
                     </div> 
                 </div>
