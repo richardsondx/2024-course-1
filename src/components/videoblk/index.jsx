@@ -1,4 +1,4 @@
-import Img from '/hero-video.webp' 
+import Img from '/hero-video.png' 
 import "./style.css" 
 import { useState } from 'react'
  

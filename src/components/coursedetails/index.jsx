@@ -26,7 +26,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={2} 
-                        title="Module 1 - Building and Managing Remote Teams"
+                        title="Module 1 - Building Remote Teams"
                         lessons="7 lessons"
                         ukey={2} icon>
                         <p>This module introduces key strategies and principles for effectively building and managing remote teams.</p>
@@ -41,7 +41,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={3} 
-                        title="Module 2 - Hiring and Onboarding Remote Developers"
+                        title="Module 2 - Hiring Remote Developers"
                         lessons="6 lessons"
                         ukey={3} icon>
                         <p>Discover the essential steps for hiring and onboarding top remote developers in this module.</p>
@@ -55,7 +55,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={4} 
-                        title="Module 3 - Effective Communication for Quality Outcomes"
+                        title="Module 3 - Effective Communication"
                         lessons="6 lessons"
                         ukey={4} icon>
                         <p>Learn how to communicate effectively and achieve quality outcomes with your remote team in this module.</p>
@@ -69,7 +69,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={5} 
-                        title="Module 4 - Project Management for App Development"
+                        title="Module 4 - Project Management"
                         lessons="4 lessons"
                         ukey={5} icon>
                         <p>Explore project management techniques tailored for app development in a remote setting.</p>
@@ -83,7 +83,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={6} 
-                        title="Module 5 - Building Trust and Collaboration"
+                        title="Module 5 - Trust and Collaboration"
                         lessons="8 lessons"
                         ukey={6} icon>
                         <p>This module delves into fostering trust and collaboration within remote teams.</p>
@@ -99,7 +99,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={7} 
-                        title="Module 6 - Ensuring Productivity and Accountability"
+                        title="Module 6 - Productivity and Accountability"
                         lessons="4 lessons"
                         ukey={7} icon>
                         <p>Gain insights on maintaining productivity and accountability in remote work environments in this module.</p>
@@ -113,7 +113,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={8} 
-                        title="Module 7 - Managing Development Cycles for Quality"
+                        title="Module 7 - Development Cycles"
                         lessons="4 lessons"
                         ukey={8} icon>
                         <p>Understand the intricacies of managing development cycles to ensure high-quality results.</p>
@@ -125,7 +125,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={8} 
-                        title="Module 8 - Scaling Remote Teams Effectively"
+                        title="Module 8 - Scaling Remote Teams"
                         lessons="3 lessons"
                         ukey={8} icon>
                         <p>Learn strategies for effectively scaling your remote team in this module.</p>
@@ -136,7 +136,7 @@ export default function CourseDetails() {
                         </ul>
                     </AccordionItem>
                     <AccordionItem key={9} 
-                        title="Module 9 - Leadership Skills for Remote Team Managers"
+                        title="Module 9 - Leadership Skills"
                         lessons="6 lessons"
                         ukey={9} icon>
                         <p>Develop essential leadership skills for managing remote teams in this comprehensive module.</p>

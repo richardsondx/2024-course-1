@@ -7,8 +7,8 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="footer-form">
-                            <h4>Digital Products 101</h4>
-                            <p>Sign up for my weekly newsletter to receive 1 email per week on branding, audience building, marketing and more.</p>
+                            <h4>Optimize Your Remote Team 101</h4>
+                            <p>Sign up for my weekly newsletter to receive 1 email per week on how to outsource like a pro.</p>
                             <NewletterForm />
                         </div>
                     </div>
@@ -19,7 +19,7 @@ export default function Footer() {
                                     <li><a href="#">Privacy policy</a></li>
                                     <li><a href="#">Terms and conditions</a></li>
                                 </ul>
-                                <p>© 2024 ModestMitkus. All rights reserved.</p> 
+                                <p>© 2024 RichardsonDackam. All rights reserved.</p> 
                             </div>
                             <ul>
                                 <li>

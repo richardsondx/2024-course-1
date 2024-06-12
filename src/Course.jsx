@@ -2,7 +2,8 @@ import Header from './components/header/header'
 import Hero from './components/hero'
 import Testimonial from './components/testimonial'
 import VideoBlk from './components/videoblk'
-import Avatar from "/avatar.webp"
+import Avatar from "/avatar-timgrassin.jpeg"
+import Avatar2 from "/avatar-janwalczak.jpeg"
 import Features from './components/features'
 import Steps from './components/steps'
 import MoreFeatures from './components/morefeatures'
@@ -36,7 +37,7 @@ function Course() {
               {/* Hero */} 
               <Hero 
                 title="Build and Manage a Remote Development Team"
-                content="How to Lead Remote Development Teams and Build Quality Apps Without a Technical Background"
+                content="The Smart Outsourcing Masterclass is a video course where I show you how to lead remote development teams and build quality apps without a technical background."
               >
                 <Btn type={"link"} href={"#pricing"} classes={"largeBtn"} text={"Get Instant Access"} />
                 <span>Limited-time offer, the prices will increase soon.</span>
@@ -50,9 +51,9 @@ function Course() {
                 section_title="How I Went from a Team of One to Leading Remote Teams that deliver results."
                 section_content="After watching this 2-hour video course, you will understand my entire framework for building and managing remote development teams. Learn how I went from working alone to leading remote teams that can deliver high quality work consistantly and on schedule."
                 img={Avatar}
-                name={"Parker Worth"}
-                title={"Content Creator"} 
-                content={'"Mitkus is a digital genius. He taught me how to make products that last a lifetime. Imagine waking up and checking your phone to see that you’ve made $1,000s while you were asleep? That’s what Mitkus did for me. Don’t miss this course"'} 
+                name={"Tim Grassin"}
+                title={"Startup Founder"} 
+                content={'"Richardson is a digital genius. He taught me how to make products that last a lifetime. Imagine waking up and checking your phone to see that you’ve made $1,000s while you were asleep? That’s what Richardson did for me. Don’t miss this course"'} 
                 href={"#pricing"}
                 id="whatisinside"
               />
@@ -64,10 +65,10 @@ function Course() {
               <Testimonial 
                 section_title="Build a High-Performing Remote Team and Scale Your Business Effortlessly. Lead Projects from Anywhere, Anytime."
                 section_content="Follow my step-by-step process to build and manage a remote development team that delivers high-quality apps."
-                img={Avatar}
-                name={"Jon Brosio"}
-                title={"Content Creator"} 
-                content={'"I recently came across Mitkus. The dude knows his shit. I have built and marketed over $100,000 worth of courses. Instantly – I knew I had a lot more to learn after coming across his work. Can not wait to learn more."'} 
+                img={Avatar2}
+                name={"Jan Walzack"}
+                title={"Product Designer at Google"} 
+                content={'"I recently came across Richardson. The dude knows his shit. I have built and marketed over $100,000 worth of courses. Instantly – I knew I had a lot more to learn after coming across his work. Can not wait to learn more."'} 
                 href={"#pricing"}
               />
                     

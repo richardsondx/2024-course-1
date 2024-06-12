@@ -11,7 +11,7 @@ export default function About() {
                     content="From selling physical products to digital products. From selling time to providing value. The path that led me here due to my constant need for improvement."
                 />
                 <DefaultItem classes={"only_for_content mt-5"}>
-                    <h4>Hey, I’m Modest Mitkus</h4>
+                    <h4>Hey, I’m Richadson Dackam</h4>
                     <p>A few years ago, I was running my own UI/UX studio. I won one of the biggest clients in my country, received awards, earned 6 figures, and was my own boss.</p> 
                     <p>Living the dream, some would say. <br /> Except, I wasn't.</p>
                     <p>Every day, I had to perform to please people I didn't know or even like:</p>
