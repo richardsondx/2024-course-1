@@ -27,7 +27,7 @@ function Course() {
   return (
     <>
       <Header menus={menuItems} btnInfo={{value:"Get Instant Access",href:"#pricing"}}>
-        <p>Limited-time offer: Save $500 on bundle with code <b>"BUNDLE2024"</b> at checkout.</p>
+        {/* <p>Limited-time offer: Save $500 on bundle with code <b>"BUNDLE2024"</b> at checkout.</p> */}
       </Header>
       <main>
 

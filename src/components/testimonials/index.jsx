@@ -9,7 +9,7 @@ export default function Testimonials() {
                     content="Don't just take my word for it, listen to thousands of others."
                 />
                 <div className="all_testimonials">
-                <iframe id="testimonialto-wall-of-love-for-testimonial-light" src="https://embed-v2.testimonial.to/w/wall-of-love-for-testimonial?theme=light&card=base" frameBorder="0" scrolling="no" width="100%" height="1200"></iframe>
+                <iframe id="testimonialto-wall-of-love-for-testimonial-light" src="https://embed-v2.testimonial.to/w/optimize-os?theme=dark&card=base&loadMore=on&initialCount=20&tag=all" frameBorder="0" scrolling="no" width="100%" height="1200"></iframe>
                 </div>
             </div>
 

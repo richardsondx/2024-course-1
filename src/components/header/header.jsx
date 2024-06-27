@@ -32,7 +32,7 @@ export default function Header({menus,btnInfo,children}) {
                 }
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-9 col-6">
+                        <div className="col-lg-9 col-6 pt-4">
                             <div className="header-left">
                                 <Link to="/" className="logo"><img src={LOGO} alt="" /></Link>
                                 <nav>
